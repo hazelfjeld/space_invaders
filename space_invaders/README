@@ -1,0 +1,61 @@
+# Space Invaders
+
+## Overview
+This is a **Space Invaders** clone created using **Python** and **Pygame**. The game features classic mechanics, including player movement, shooting, alien waves, win/lose conditions, and buttons for replaying or quitting.
+
+## Features
+- **Player Controls:** Move left and right, and shoot bullets to destroy aliens.
+- **Alien Movement:** Aliens move as a group, drop down after hitting screen edges, and shoot bullets at the player.
+- **Win Condition:** Destroy all aliens to win.
+- **Lose Condition:** Get hit by an alien bullet to lose.
+- **Restart and Quit Buttons:** Easily replay the game or exit directly from the end screen.
+
+## Gameplay Instructions
+1. Use **Left Arrow (←)** and **Right Arrow (→)** keys to move.
+2. Press **Spacebar** to shoot bullets.
+3. Destroy all aliens to win the game.
+4. Avoid alien bullets—getting hit ends the game.
+5. When the game ends, click **Replay** to restart or **Quit** to exit.
+
+## Requirements
+- **Python 3.8+**
+- **Pygame 2.0+**
+
+Install Pygame with:
+```
+pip install pygame
+```
+
+## How to Run
+1. Download or clone this repository.
+2. Make sure all image assets (e.g., `bg.png`, `spaceship.png`, `alien1.png`, etc.) are in an `img` folder in the same directory as the script.
+3. Run the script:
+```
+python space_invaders.py
+```
+
+## File Structure
+```
+Space_Invaders/
+├── img/
+│   ├── bg.png
+│   ├── spaceship.png
+│   ├── alien1.png
+│   ├── alien2.png
+│   ├── alien3.png
+│   ├── alien4.png
+│   ├── alien5.png
+│   ├── bullet.png
+│   ├── space_invaders.py
+│   ├── alien_bullet.png
+└── README.md
+```
+
+## Credits
+This project was designed and developed by **Hazel Fjeld**
+
+## License
+This project is licensed under the **MIT License**. Feel free to use and modify it as needed!
+
+
+
